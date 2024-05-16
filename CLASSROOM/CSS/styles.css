@@ -1,0 +1,37 @@
+/*selector universal*/
+/*selecciona TODOS los elementos de mi HTML*/
+/*se indica a traves de un asterisco*/
+*{
+    font-family: Arial;
+}
+
+/* selector por TAGNAME*/
+/*selecciona todos los elementos cuyo tagname sea elindicado en el selector*/
+/*se indica a traves del nombre de la la etiquera que queremos seleccionar*/
+/* LO PODREMOS USAR SI QUISIERA PONER UNA ETIQUETA
+DE UN ESTILO EN ESPECIFICO*/ 
+p{
+    text-transform: uppercase;
+    color: red;
+}
+
+/*selector POR CLASE, se indica por un punto (.) */ /*podemos concatenar otras clases*/
+
+.parrafo-destacado{
+    text-decoration: underline;
+    font-style: italic;
+    color:blueviolet;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+/* selector por ID*/
+/*selecciona aquel elemento cuyo ID se igual al indicado en el selector*/
+/* se indica a traves de una almohadilla (#) */
+
+#main-heading{
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: peru
+}
