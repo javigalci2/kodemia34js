@@ -26,7 +26,7 @@ console.log(result);
 
 
 
-
+/* codigo basura (bueno todo mi codigo es un asco jeje) */
 /* const countDados = (dados) => {
     let dados = dado1 + dado2;
         dado1 = 1,2,3,4,5,6;

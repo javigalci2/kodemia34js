@@ -11,12 +11,3 @@ const checkLostandOwner = (dado) => {
 
 let checkDado = checkLostandOwner (6);
 console.log(checkDado);
-
-/*EJERCISIO 2 */
-/* si el numero que caiga en el dado es 1, se gana 5 puntos
-    si el numero que caiga en el dado es 3, se ganan 10 puntos
-    si el numero que caiga en el dado es 5, se ganan 15 puntos
-    cualquier otro numero no genera puntos */
-
-
-
